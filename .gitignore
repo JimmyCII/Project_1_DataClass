@@ -1,5 +1,7 @@
 # Custom ignore
 .DS_Store
+tedsa_puf_2019.csv
+NSSATS_PUF_2019_CSV.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
