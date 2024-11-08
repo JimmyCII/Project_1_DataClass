@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ef2e3a2cf4816d439b72a729b39ca55d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ef2e3a2cf4816d439b72a729b39ca55d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ef2e3a2cf4816d439b72a729b39ca55d = L.map(
+                "map_ef2e3a2cf4816d439b72a729b39ca55d",
+                {
+                    center: [37.8, -96.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0f007dc5aab40587040ce11d4523f4f4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0f007dc5aab40587040ce11d4523f4f4.addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var marker_6436b3cdc40fa700e77c5428d50221f9 = L.marker(
+                [33.2588817, -86.8295337],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_6af2b6c58886e89b21f24dc21a70f3f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6436b3cdc40fa700e77c5428d50221f9.setIcon(icon_6af2b6c58886e89b21f24dc21a70f3f8);
+        
+    
+        var popup_2e3d7cfee9727ac117d009c8adcd5cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41f78342d3b5f43e9a1115e84da8f1e8 = $(`<div id="html_41f78342d3b5f43e9a1115e84da8f1e8" style="width: 100.0%; height: 100.0%;">Alabama:  treatment_centers_by_state: 153  Ratio:162.5462962962963</div>`)[0];
+                popup_2e3d7cfee9727ac117d009c8adcd5cf0.setContent(html_41f78342d3b5f43e9a1115e84da8f1e8);
+            
+        
+
+        marker_6436b3cdc40fa700e77c5428d50221f9.bindPopup(popup_2e3d7cfee9727ac117d009c8adcd5cf0)
+        ;
+
+        
+    
+    
+            var marker_d86af5d6f04a4e6a13951c6f874907ec = L.marker(
+                [64.4459613, -149.680909],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_0bf52b5d0fd4f6bdd119a3ce1d39ab1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d86af5d6f04a4e6a13951c6f874907ec.setIcon(icon_0bf52b5d0fd4f6bdd119a3ce1d39ab1a);
+        
+    
+        var popup_847d4d9769352644428b8245cb2b2563 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7ea7e2a04f368529ecc941339c441fb = $(`<div id="html_a7ea7e2a04f368529ecc941339c441fb" style="width: 100.0%; height: 100.0%;">Alaska:  treatment_centers_by_state: 96  Ratio:144.80434782608697</div>`)[0];
+                popup_847d4d9769352644428b8245cb2b2563.setContent(html_a7ea7e2a04f368529ecc941339c441fb);
+            
+        
+
+        marker_d86af5d6f04a4e6a13951c6f874907ec.bindPopup(popup_847d4d9769352644428b8245cb2b2563)
+        ;
+
+        
+    
+    
+            var marker_a1aee9047ca36f9fb3b68020e8d2c60f = L.marker(
+                [34.395342, -111.763275],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_42105dbd70752e3dfcd6ea5f5f74f6a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a1aee9047ca36f9fb3b68020e8d2c60f.setIcon(icon_42105dbd70752e3dfcd6ea5f5f74f6a4);
+        
+    
+        var popup_8d771d7d1dff3208c14ae1fe25eab2ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eaa1bf7e903f2757fbdd750cee13b57 = $(`<div id="html_8eaa1bf7e903f2757fbdd750cee13b57" style="width: 100.0%; height: 100.0%;">Arizona:  treatment_centers_by_state: 446  Ratio:762.7430167597765</div>`)[0];
+                popup_8d771d7d1dff3208c14ae1fe25eab2ef.setContent(html_8eaa1bf7e903f2757fbdd750cee13b57);
+            
+        
+
+        marker_a1aee9047ca36f9fb3b68020e8d2c60f.bindPopup(popup_8d771d7d1dff3208c14ae1fe25eab2ef)
+        ;
+
+        
+    
+    
+            var marker_d1aae63c0080f2248912c42a1fc4c2aa = L.marker(
+                [35.2048883, -92.4479108],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_5a22e60144bcdc33e911f373ada5b96a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1aae63c0080f2248912c42a1fc4c2aa.setIcon(icon_5a22e60144bcdc33e911f373ada5b96a);
+        
+    
+        var popup_f4d1b44214f228583667d3e2a512bb53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_429b9744a161a79738c0928023c23f6e = $(`<div id="html_429b9744a161a79738c0928023c23f6e" style="width: 100.0%; height: 100.0%;">Arkansas:  treatment_centers_by_state: 167  Ratio:237.6551724137931</div>`)[0];
+                popup_f4d1b44214f228583667d3e2a512bb53.setContent(html_429b9744a161a79738c0928023c23f6e);
+            
+        
+
+        marker_d1aae63c0080f2248912c42a1fc4c2aa.bindPopup(popup_f4d1b44214f228583667d3e2a512bb53)
+        ;
+
+        
+    
+    
+            var marker_bd016a6693de15dee32d431c82db348e = L.marker(
+                [36.7014631, -118.755997],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_d8c7048e65ca67fa03846c0745c73b06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd016a6693de15dee32d431c82db348e.setIcon(icon_d8c7048e65ca67fa03846c0745c73b06);
+        
+    
+        var popup_7252502945c2786836bfdaf165a94743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bc25729d74e0efc40a6ba92742d39a7 = $(`<div id="html_1bc25729d74e0efc40a6ba92742d39a7" style="width: 100.0%; height: 100.0%;">California:  treatment_centers_by_state: 1797  Ratio:110.33025568181819</div>`)[0];
+                popup_7252502945c2786836bfdaf165a94743.setContent(html_1bc25729d74e0efc40a6ba92742d39a7);
+            
+        
+
+        marker_bd016a6693de15dee32d431c82db348e.bindPopup(popup_7252502945c2786836bfdaf165a94743)
+        ;
+
+        
+    
+    
+            var marker_43b9a100db2cd6cc67b747f79230bfe5 = L.marker(
+                [38.7251776, -105.607716],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_17b39853d73d75ed65a3c171b5b4d39f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43b9a100db2cd6cc67b747f79230bfe5.setIcon(icon_17b39853d73d75ed65a3c171b5b4d39f);
+        
+    
+        var popup_75b022095599dc385a39aeeacc1b538f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b22f75f598024abfcbe4818006a0342 = $(`<div id="html_6b22f75f598024abfcbe4818006a0342" style="width: 100.0%; height: 100.0%;">Colorado:  treatment_centers_by_state: 408  Ratio:651.5555555555555</div>`)[0];
+                popup_75b022095599dc385a39aeeacc1b538f.setContent(html_6b22f75f598024abfcbe4818006a0342);
+            
+        
+
+        marker_43b9a100db2cd6cc67b747f79230bfe5.bindPopup(popup_75b022095599dc385a39aeeacc1b538f)
+        ;
+
+        
+    
+    
+            var marker_ee92ad862dd9d4e02c30a3b2ef24d2b6 = L.marker(
+                [41.6500201, -72.7342163],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_a236c6bd826bc604d941df28c11a923f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee92ad862dd9d4e02c30a3b2ef24d2b6.setIcon(icon_a236c6bd826bc604d941df28c11a923f);
+        
+    
+        var popup_9f04328a54f155a5d32e6581459a1b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89a90301b5e0f8109b2f059684110328 = $(`<div id="html_89a90301b5e0f8109b2f059684110328" style="width: 100.0%; height: 100.0%;">Connecticut:  treatment_centers_by_state: 220  Ratio:436.93288590604027</div>`)[0];
+                popup_9f04328a54f155a5d32e6581459a1b74.setContent(html_89a90301b5e0f8109b2f059684110328);
+            
+        
+
+        marker_ee92ad862dd9d4e02c30a3b2ef24d2b6.bindPopup(popup_9f04328a54f155a5d32e6581459a1b74)
+        ;
+
+        
+    
+    
+            var marker_6f09613fe40319257fd3cfbb28f0cbbc = L.marker(
+                [38.6920451, -75.4013315],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_a8b64eddc4753b95e684a218b655401e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f09613fe40319257fd3cfbb28f0cbbc.setIcon(icon_a8b64eddc4753b95e684a218b655401e);
+        
+    
+        var popup_7e09c6b4c529dddc9815765b4e504e6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aaac021d55a898fc9769c76e850bf80 = $(`<div id="html_6aaac021d55a898fc9769c76e850bf80" style="width: 100.0%; height: 100.0%;">Delaware:  treatment_centers_by_state: 44  Ratio:1156.357142857143</div>`)[0];
+                popup_7e09c6b4c529dddc9815765b4e504e6b.setContent(html_6aaac021d55a898fc9769c76e850bf80);
+            
+        
+
+        marker_6f09613fe40319257fd3cfbb28f0cbbc.bindPopup(popup_7e09c6b4c529dddc9815765b4e504e6b)
+        ;
+
+        
+    
+    
+            var marker_f7568e8cce8a3169fa756cff608fe895 = L.marker(
+                [38.89384735, -76.98804281910948],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_ee0471161b9b1553f23eb319546d1669 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7568e8cce8a3169fa756cff608fe895.setIcon(icon_ee0471161b9b1553f23eb319546d1669);
+        
+    
+        var popup_672541437ad6d2d304c68bda4ccf72f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67b8619bce4f59d9a6a75e32c8ed7f58 = $(`<div id="html_67b8619bce4f59d9a6a75e32c8ed7f58" style="width: 100.0%; height: 100.0%;">District of Columbia:  treatment_centers_by_state: 26  Ratio:389.57142857142856</div>`)[0];
+                popup_672541437ad6d2d304c68bda4ccf72f5.setContent(html_67b8619bce4f59d9a6a75e32c8ed7f58);
+            
+        
+
+        marker_f7568e8cce8a3169fa756cff608fe895.bindPopup(popup_672541437ad6d2d304c68bda4ccf72f5)
+        ;
+
+        
+    
+    
+            var marker_aa2e44e49fd6e2ff254164d8651a934a = L.marker(
+                [27.7567667, -81.4639835],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_4024f49f1722451685f5a6963a9cdbc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa2e44e49fd6e2ff254164d8651a934a.setIcon(icon_4024f49f1722451685f5a6963a9cdbc7);
+        
+    
+        var popup_a675a7ec2e5c862bd81d32cf83c75206 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aadfd33ddb9c1db9d936fa01549ce973 = $(`<div id="html_aadfd33ddb9c1db9d936fa01549ce973" style="width: 100.0%; height: 100.0%;">Florida:  treatment_centers_by_state: 725  Ratio:98.71606864274571</div>`)[0];
+                popup_a675a7ec2e5c862bd81d32cf83c75206.setContent(html_aadfd33ddb9c1db9d936fa01549ce973);
+            
+        
+
+        marker_aa2e44e49fd6e2ff254164d8651a934a.bindPopup(popup_a675a7ec2e5c862bd81d32cf83c75206)
+        ;
+
+        
+    
+    
+            var marker_b17423e14dac7735761c4235b55b03b3 = L.marker(
+                [32.3293809, -83.1137366],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_89e9f79a56e902602d5ef606ac67e4af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b17423e14dac7735761c4235b55b03b3.setIcon(icon_89e9f79a56e902602d5ef606ac67e4af);
+        
+    
+        var popup_a265693f8165596a36d92c6762619e03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_064d415bcd5742546898e4192555899b = $(`<div id="html_064d415bcd5742546898e4192555899b" style="width: 100.0%; height: 100.0%;">Georgia:  treatment_centers_by_state: 358  Ratio:161.31034482758622</div>`)[0];
+                popup_a265693f8165596a36d92c6762619e03.setContent(html_064d415bcd5742546898e4192555899b);
+            
+        
+
+        marker_b17423e14dac7735761c4235b55b03b3.bindPopup(popup_a265693f8165596a36d92c6762619e03)
+        ;
+
+        
+    
+    
+            var marker_f5724bb4e86ba1cdb422af23eefc253a = L.marker(
+                [19.593801499999998, -155.42837009716908],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_0fdf14007ea57ccd8f9e6618ed807378 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5724bb4e86ba1cdb422af23eefc253a.setIcon(icon_0fdf14007ea57ccd8f9e6618ed807378);
+        
+    
+        var popup_7b7476971a866f7ac03afdc0620e1b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6c11ca1169fbb11344a1c022edd2b25 = $(`<div id="html_d6c11ca1169fbb11344a1c022edd2b25" style="width: 100.0%; height: 100.0%;">Hawaii:  treatment_centers_by_state: 167  Ratio:58.2093023255814</div>`)[0];
+                popup_7b7476971a866f7ac03afdc0620e1b71.setContent(html_d6c11ca1169fbb11344a1c022edd2b25);
+            
+        
+
+        marker_f5724bb4e86ba1cdb422af23eefc253a.bindPopup(popup_7b7476971a866f7ac03afdc0620e1b71)
+        ;
+
+        
+    
+    
+            var marker_d951a6b8856a04e7b395c6500a1c31ac = L.marker(
+                [43.6447642, -114.015407],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_629eae29cf6ce6338332220e416853ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d951a6b8856a04e7b395c6500a1c31ac.setIcon(icon_629eae29cf6ce6338332220e416853ab);
+        
+    
+        var popup_07cf989736818dba4ee9d8326fea0b49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45ed66ab4e819ef055732b301d689654 = $(`<div id="html_45ed66ab4e819ef055732b301d689654" style="width: 100.0%; height: 100.0%;">Idaho:  treatment_centers_by_state: 124  Ratio:29.333333333333332</div>`)[0];
+                popup_07cf989736818dba4ee9d8326fea0b49.setContent(html_45ed66ab4e819ef055732b301d689654);
+            
+        
+
+        marker_d951a6b8856a04e7b395c6500a1c31ac.bindPopup(popup_07cf989736818dba4ee9d8326fea0b49)
+        ;
+
+        
+    
+    
+            var marker_92b03e3fa9aae5ee9751a447ca12ac32 = L.marker(
+                [40.0796606, -89.4337288],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_ae716705f0ffbd436eef7d040e34a789 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92b03e3fa9aae5ee9751a447ca12ac32.setIcon(icon_ae716705f0ffbd436eef7d040e34a789);
+        
+    
+        var popup_c8f4fbd4e1d832624c6ee645eb398dad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_761d3d9a8bcdc580ba1ead6ddcd8b06c = $(`<div id="html_761d3d9a8bcdc580ba1ead6ddcd8b06c" style="width: 100.0%; height: 100.0%;">Illinois:  treatment_centers_by_state: 775  Ratio:173.41992882562278</div>`)[0];
+                popup_c8f4fbd4e1d832624c6ee645eb398dad.setContent(html_761d3d9a8bcdc580ba1ead6ddcd8b06c);
+            
+        
+
+        marker_92b03e3fa9aae5ee9751a447ca12ac32.bindPopup(popup_c8f4fbd4e1d832624c6ee645eb398dad)
+        ;
+
+        
+    
+    
+            var marker_a8e16be7b68aa8131a1f6177004ff778 = L.marker(
+                [40.3270127, -86.1746933],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_0d2326ef50cfb997c0ef4757e3753cf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8e16be7b68aa8131a1f6177004ff778.setIcon(icon_0d2326ef50cfb997c0ef4757e3753cf2);
+        
+    
+        var popup_224f7bb35e27b487bb7916f5ea0f81c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8acfad78067600d93d030d2cb06c3c1e = $(`<div id="html_8acfad78067600d93d030d2cb06c3c1e" style="width: 100.0%; height: 100.0%;">Indiana:  treatment_centers_by_state: 393  Ratio:206.10714285714286</div>`)[0];
+                popup_224f7bb35e27b487bb7916f5ea0f81c8.setContent(html_8acfad78067600d93d030d2cb06c3c1e);
+            
+        
+
+        marker_a8e16be7b68aa8131a1f6177004ff778.bindPopup(popup_224f7bb35e27b487bb7916f5ea0f81c8)
+        ;
+
+        
+    
+    
+            var marker_79cc892cd6779ce36d08b90bb2a63674 = L.marker(
+                [41.9216734, -93.3122705],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_32ca556cbf16a2e3839a9094ddeffd33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_79cc892cd6779ce36d08b90bb2a63674.setIcon(icon_32ca556cbf16a2e3839a9094ddeffd33);
+        
+    
+        var popup_06af89a345362eb09d04e283693d0bfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65c5c13c93c90ae359d92dcacdb4d773 = $(`<div id="html_65c5c13c93c90ae359d92dcacdb4d773" style="width: 100.0%; height: 100.0%;">Iowa:  treatment_centers_by_state: 187  Ratio:333.90588235294115</div>`)[0];
+                popup_06af89a345362eb09d04e283693d0bfa.setContent(html_65c5c13c93c90ae359d92dcacdb4d773);
+            
+        
+
+        marker_79cc892cd6779ce36d08b90bb2a63674.bindPopup(popup_06af89a345362eb09d04e283693d0bfa)
+        ;
+
+        
+    
+    
+            var marker_120f35aab75902fe580de4d4d2db3daf = L.marker(
+                [38.27312, -98.5821872],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_5cffda77e228ff3dee33bf337fb980e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_120f35aab75902fe580de4d4d2db3daf.setIcon(icon_5cffda77e228ff3dee33bf337fb980e3);
+        
+    
+        var popup_e8592904134563647713232e14a43e8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b52181fb5a3039072ffc7fa0010fc659 = $(`<div id="html_b52181fb5a3039072ffc7fa0010fc659" style="width: 100.0%; height: 100.0%;">Kansas:  treatment_centers_by_state: 179  Ratio:121.8</div>`)[0];
+                popup_e8592904134563647713232e14a43e8f.setContent(html_b52181fb5a3039072ffc7fa0010fc659);
+            
+        
+
+        marker_120f35aab75902fe580de4d4d2db3daf.bindPopup(popup_e8592904134563647713232e14a43e8f)
+        ;
+
+        
+    
+    
+            var marker_90a9126fb528135fc6e8e8f827bc2a70 = L.marker(
+                [37.5726028, -85.1551411],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_16c9627a271ac07cd6ac495ea56dc928 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90a9126fb528135fc6e8e8f827bc2a70.setIcon(icon_16c9627a271ac07cd6ac495ea56dc928);
+        
+    
+        var popup_d06b6dcd2065b7bc7facae944e3c2ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb37079f1d88ee2cb93d3d1f3c5a9317 = $(`<div id="html_cb37079f1d88ee2cb93d3d1f3c5a9317" style="width: 100.0%; height: 100.0%;">Kentucky:  treatment_centers_by_state: 449  Ratio:104.75714285714285</div>`)[0];
+                popup_d06b6dcd2065b7bc7facae944e3c2ed6.setContent(html_cb37079f1d88ee2cb93d3d1f3c5a9317);
+            
+        
+
+        marker_90a9126fb528135fc6e8e8f827bc2a70.bindPopup(popup_d06b6dcd2065b7bc7facae944e3c2ed6)
+        ;
+
+        
+    
+    
+            var marker_4da47c08c22ca79663902befb4976e0b = L.marker(
+                [30.8703881, -92.007126],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_81b2d8be7ac5ae8a96a9da8e980daba4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4da47c08c22ca79663902befb4976e0b.setIcon(icon_81b2d8be7ac5ae8a96a9da8e980daba4);
+        
+    
+        var popup_300ab8b83fbb1d1f991a892f68a24188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d04477b69affeb8c8e4bf08366bf9910 = $(`<div id="html_d04477b69affeb8c8e4bf08366bf9910" style="width: 100.0%; height: 100.0%;">Louisiana:  treatment_centers_by_state: 146  Ratio:67.13812154696133</div>`)[0];
+                popup_300ab8b83fbb1d1f991a892f68a24188.setContent(html_d04477b69affeb8c8e4bf08366bf9910);
+            
+        
+
+        marker_4da47c08c22ca79663902befb4976e0b.bindPopup(popup_300ab8b83fbb1d1f991a892f68a24188)
+        ;
+
+        
+    
+    
+            var marker_5950fd2afc1731bd49973de515451a10 = L.marker(
+                [45.709097, -68.8590201],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_79274d9dd6c74e99b18a5b040d3a4cd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5950fd2afc1731bd49973de515451a10.setIcon(icon_79274d9dd6c74e99b18a5b040d3a4cd4);
+        
+    
+        var popup_12f009f0c06fd801ccf3c8ca726fccee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bec61f74c4634e03ec34a0dd2029228 = $(`<div id="html_3bec61f74c4634e03ec34a0dd2029228" style="width: 100.0%; height: 100.0%;">Maine:  treatment_centers_by_state: 186  Ratio:249.44117647058823</div>`)[0];
+                popup_12f009f0c06fd801ccf3c8ca726fccee.setContent(html_3bec61f74c4634e03ec34a0dd2029228);
+            
+        
+
+        marker_5950fd2afc1731bd49973de515451a10.bindPopup(popup_12f009f0c06fd801ccf3c8ca726fccee)
+        ;
+
+        
+    
+    
+            var marker_95613eb7154335c7a10155611306e727 = L.marker(
+                [39.5162401, -76.9382069],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_e6ad83b3f3a7ba9f38c5f7ec69c6bd6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95613eb7154335c7a10155611306e727.setIcon(icon_e6ad83b3f3a7ba9f38c5f7ec69c6bd6a);
+        
+    
+        var popup_6ba6bf141aa0809c7106a1870a6fb3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ce4087559ed85fabdc62552f78b44fe = $(`<div id="html_2ce4087559ed85fabdc62552f78b44fe" style="width: 100.0%; height: 100.0%;">Maryland:  treatment_centers_by_state: 431  Ratio:576.5145631067961</div>`)[0];
+                popup_6ba6bf141aa0809c7106a1870a6fb3b2.setContent(html_2ce4087559ed85fabdc62552f78b44fe);
+            
+        
+
+        marker_95613eb7154335c7a10155611306e727.bindPopup(popup_6ba6bf141aa0809c7106a1870a6fb3b2)
+        ;
+
+        
+    
+    
+            var marker_1c5130bce7c622fb853d19a9cf8f4a5d = L.marker(
+                [42.3788774, -72.032366],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_14cf1a689f660fea35db23c5a79a9982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c5130bce7c622fb853d19a9cf8f4a5d.setIcon(icon_14cf1a689f660fea35db23c5a79a9982);
+        
+    
+        var popup_eeeb245b651f8204c973c6a28908035b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75cccbb663276b05e73fd494093db3c8 = $(`<div id="html_75cccbb663276b05e73fd494093db3c8" style="width: 100.0%; height: 100.0%;">Massachusetts:  treatment_centers_by_state: 438  Ratio:168.42047930283223</div>`)[0];
+                popup_eeeb245b651f8204c973c6a28908035b.setContent(html_75cccbb663276b05e73fd494093db3c8);
+            
+        
+
+        marker_1c5130bce7c622fb853d19a9cf8f4a5d.bindPopup(popup_eeeb245b651f8204c973c6a28908035b)
+        ;
+
+        
+    
+    
+            var marker_84a34691d935e48785684870b2b8817b = L.marker(
+                [43.6211955, -84.6824346],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_204960c5316e9c8a2cf2d39a6f615415 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84a34691d935e48785684870b2b8817b.setIcon(icon_204960c5316e9c8a2cf2d39a6f615415);
+        
+    
+        var popup_235310382e447aafc7b75015ab38d2c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d695526eee2f045f4a4527e90deb2fef = $(`<div id="html_d695526eee2f045f4a4527e90deb2fef" style="width: 100.0%; height: 100.0%;">Michigan:  treatment_centers_by_state: 467  Ratio:319.51020408163265</div>`)[0];
+                popup_235310382e447aafc7b75015ab38d2c9.setContent(html_d695526eee2f045f4a4527e90deb2fef);
+            
+        
+
+        marker_84a34691d935e48785684870b2b8817b.bindPopup(popup_235310382e447aafc7b75015ab38d2c9)
+        ;
+
+        
+    
+    
+            var marker_7986ee0e359f87a18f6b6863d14ad55a = L.marker(
+                [45.9896587, -94.6113288],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_d68827c4af8e1654948b1e6e763b54b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7986ee0e359f87a18f6b6863d14ad55a.setIcon(icon_d68827c4af8e1654948b1e6e763b54b8);
+        
+    
+        var popup_ac19beeac0cd64dbdadf28e8fc109a6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3482766004b05987ecfec6feca0bdc03 = $(`<div id="html_3482766004b05987ecfec6feca0bdc03" style="width: 100.0%; height: 100.0%;">Minnesota:  treatment_centers_by_state: 403  Ratio:189.0722891566265</div>`)[0];
+                popup_ac19beeac0cd64dbdadf28e8fc109a6e.setContent(html_3482766004b05987ecfec6feca0bdc03);
+            
+        
+
+        marker_7986ee0e359f87a18f6b6863d14ad55a.bindPopup(popup_ac19beeac0cd64dbdadf28e8fc109a6e)
+        ;
+
+        
+    
+    
+            var marker_98b344b4fdc8b6bba4c34910d4ebe916 = L.marker(
+                [32.9715285, -89.7348497],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_ce4bb83dd9e42a1cb29d1ba0a23cfc52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98b344b4fdc8b6bba4c34910d4ebe916.setIcon(icon_ce4bb83dd9e42a1cb29d1ba0a23cfc52);
+        
+    
+        var popup_6a846c8460cf3984b9a7036b53626939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a93bae208d342be6d724aa40e95ea7ec = $(`<div id="html_a93bae208d342be6d724aa40e95ea7ec" style="width: 100.0%; height: 100.0%;">Mississippi:  treatment_centers_by_state: 110  Ratio:58.87596899224806</div>`)[0];
+                popup_6a846c8460cf3984b9a7036b53626939.setContent(html_a93bae208d342be6d724aa40e95ea7ec);
+            
+        
+
+        marker_98b344b4fdc8b6bba4c34910d4ebe916.bindPopup(popup_6a846c8460cf3984b9a7036b53626939)
+        ;
+
+        
+    
+    
+            var marker_d530adaa992ae7f134a098d2e2db1d5f = L.marker(
+                [38.7604815, -92.5617875],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_ccba0e32f59011a4c90b3b5dc108d6ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d530adaa992ae7f134a098d2e2db1d5f.setIcon(icon_ccba0e32f59011a4c90b3b5dc108d6ad);
+        
+    
+        var popup_4646cf6fb93d08a7ca4fea8cb1537279 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25db2d049c9f7f48e2b164142f4ffb9e = $(`<div id="html_25db2d049c9f7f48e2b164142f4ffb9e" style="width: 100.0%; height: 100.0%;">Missouri:  treatment_centers_by_state: 281  Ratio:321.11504424778764</div>`)[0];
+                popup_4646cf6fb93d08a7ca4fea8cb1537279.setContent(html_25db2d049c9f7f48e2b164142f4ffb9e);
+            
+        
+
+        marker_d530adaa992ae7f134a098d2e2db1d5f.bindPopup(popup_4646cf6fb93d08a7ca4fea8cb1537279)
+        ;
+
+        
+    
+    
+            var marker_981bcfa95168dd41085f54a5acee3b83 = L.marker(
+                [47.3752671, -109.638757],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_b496ddd5c9e353eba822d26eabfaec6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_981bcfa95168dd41085f54a5acee3b83.setIcon(icon_b496ddd5c9e353eba822d26eabfaec6b);
+        
+    
+        var popup_5ae7b9c7d9eacdca4a7456f8a2b4c3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfe2c27e8995a8935a01ef7962f86daf = $(`<div id="html_bfe2c27e8995a8935a01ef7962f86daf" style="width: 100.0%; height: 100.0%;">Montana:  treatment_centers_by_state: 88  Ratio:31.775</div>`)[0];
+                popup_5ae7b9c7d9eacdca4a7456f8a2b4c3c0.setContent(html_bfe2c27e8995a8935a01ef7962f86daf);
+            
+        
+
+        marker_981bcfa95168dd41085f54a5acee3b83.bindPopup(popup_5ae7b9c7d9eacdca4a7456f8a2b4c3c0)
+        ;
+
+        
+    
+    
+            var marker_08ec3496cc5c1cac81cc54a8897dfd0c = L.marker(
+                [41.7370229, -99.5873816],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_4f0994cae00c67e7ccf1fcebf58db352 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08ec3496cc5c1cac81cc54a8897dfd0c.setIcon(icon_4f0994cae00c67e7ccf1fcebf58db352);
+        
+    
+        var popup_5ca5344b4e61ca13450a3882868cddef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7918688405f2f57223d45351d1400e34 = $(`<div id="html_7918688405f2f57223d45351d1400e34" style="width: 100.0%; height: 100.0%;">Nebraska:  treatment_centers_by_state: 131  Ratio:141.53488372093022</div>`)[0];
+                popup_5ca5344b4e61ca13450a3882868cddef.setContent(html_7918688405f2f57223d45351d1400e34);
+            
+        
+
+        marker_08ec3496cc5c1cac81cc54a8897dfd0c.bindPopup(popup_5ca5344b4e61ca13450a3882868cddef)
+        ;
+
+        
+    
+    
+            var marker_6d75c7e28180e63c25c832822b7e2c79 = L.marker(
+                [39.5158825, -116.853722],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_9b0e07d3644893ad50ec3fa2f3cf0a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d75c7e28180e63c25c832822b7e2c79.setIcon(icon_9b0e07d3644893ad50ec3fa2f3cf0a30);
+        
+    
+        var popup_03948977c652bbc64b688e588edaf08f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf3e5c76a3786d88c61f0056f0ab55b7 = $(`<div id="html_cf3e5c76a3786d88c61f0056f0ab55b7" style="width: 100.0%; height: 100.0%;">Nevada:  treatment_centers_by_state: 106  Ratio:154.30769230769232</div>`)[0];
+                popup_03948977c652bbc64b688e588edaf08f.setContent(html_cf3e5c76a3786d88c61f0056f0ab55b7);
+            
+        
+
+        marker_6d75c7e28180e63c25c832822b7e2c79.bindPopup(popup_03948977c652bbc64b688e588edaf08f)
+        ;
+
+        
+    
+    
+            var marker_4fb8ec7c952b90d0753ecb1548b8bd59 = L.marker(
+                [43.4849133, -71.6553992],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_869ce601f7f2957430b702f57c492f80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fb8ec7c952b90d0753ecb1548b8bd59.setIcon(icon_869ce601f7f2957430b702f57c492f80);
+        
+    
+        var popup_70dd44351e215a2cee61e1ee0dd6b4f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44cb077edee8c0da0dbde6155fcb8b20 = $(`<div id="html_44cb077edee8c0da0dbde6155fcb8b20" style="width: 100.0%; height: 100.0%;">New Hampshire:  treatment_centers_by_state: 80  Ratio:44.735849056603776</div>`)[0];
+                popup_70dd44351e215a2cee61e1ee0dd6b4f9.setContent(html_44cb077edee8c0da0dbde6155fcb8b20);
+            
+        
+
+        marker_4fb8ec7c952b90d0753ecb1548b8bd59.bindPopup(popup_70dd44351e215a2cee61e1ee0dd6b4f9)
+        ;
+
+        
+    
+    
+            var marker_56784dbe22565e724445390774bae638 = L.marker(
+                [40.0757384, -74.4041622],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_8ae2effcbcebdea872ea94703b7b94ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_56784dbe22565e724445390774bae638.setIcon(icon_8ae2effcbcebdea872ea94703b7b94ac);
+        
+    
+        var popup_6cfa2d7c68409c84e390b5a14b01aed2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76a11af3c74a8a645e80efd826c49187 = $(`<div id="html_76a11af3c74a8a645e80efd826c49187" style="width: 100.0%; height: 100.0%;">New Jersey:  treatment_centers_by_state: 370  Ratio:540.817679558011</div>`)[0];
+                popup_6cfa2d7c68409c84e390b5a14b01aed2.setContent(html_76a11af3c74a8a645e80efd826c49187);
+            
+        
+
+        marker_56784dbe22565e724445390774bae638.bindPopup(popup_6cfa2d7c68409c84e390b5a14b01aed2)
+        ;
+
+        
+    
+    
+            var marker_e3c7912e7f13d36d320e6ddebaf1c835 = L.marker(
+                [34.5802074, -105.996047],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_b367db5558c373c52a4f578b312b80e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3c7912e7f13d36d320e6ddebaf1c835.setIcon(icon_b367db5558c373c52a4f578b312b80e8);
+        
+    
+        var popup_4d615de3ce1c9c584b6f95060446d94f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7243d55cbfc4a2c5581c54be933c7371 = $(`<div id="html_7243d55cbfc4a2c5581c54be933c7371" style="width: 100.0%; height: 100.0%;">New Mexico:  treatment_centers_by_state: 166  Ratio:170.07462686567163</div>`)[0];
+                popup_4d615de3ce1c9c584b6f95060446d94f.setContent(html_7243d55cbfc4a2c5581c54be933c7371);
+            
+        
+
+        marker_e3c7912e7f13d36d320e6ddebaf1c835.bindPopup(popup_4d615de3ce1c9c584b6f95060446d94f)
+        ;
+
+        
+    
+    
+            var marker_a2277e07ce2f711f1846384ccf14ab59 = L.marker(
+                [43.1561681, -75.8449946],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_70a7b9d4ab6642b7f607ce97cc259efa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2277e07ce2f711f1846384ccf14ab59.setIcon(icon_70a7b9d4ab6642b7f607ce97cc259efa);
+        
+    
+        var popup_a60c2cbd1ad0fb9b0928e233d6eb0462 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d19e55ebfa9ea8108cae363ca92c7a30 = $(`<div id="html_d19e55ebfa9ea8108cae363ca92c7a30" style="width: 100.0%; height: 100.0%;">New York:  treatment_centers_by_state: 925  Ratio:324.64550898203595</div>`)[0];
+                popup_a60c2cbd1ad0fb9b0928e233d6eb0462.setContent(html_d19e55ebfa9ea8108cae363ca92c7a30);
+            
+        
+
+        marker_a2277e07ce2f711f1846384ccf14ab59.bindPopup(popup_a60c2cbd1ad0fb9b0928e233d6eb0462)
+        ;
+
+        
+    
+    
+            var marker_e225eae81eb3355e6ba1d3041665d76d = L.marker(
+                [35.6729639, -79.0392919],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_aec59e013a96bbc00efb5b3229942e23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e225eae81eb3355e6ba1d3041665d76d.setIcon(icon_aec59e013a96bbc00efb5b3229942e23);
+        
+    
+        var popup_4759e5c5be0711469c116dfe56beb6b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd51fe7a53616707a5fac4f85236171 = $(`<div id="html_7cd51fe7a53616707a5fac4f85236171" style="width: 100.0%; height: 100.0%;">North Carolina:  treatment_centers_by_state: 552  Ratio:268.33170731707315</div>`)[0];
+                popup_4759e5c5be0711469c116dfe56beb6b3.setContent(html_7cd51fe7a53616707a5fac4f85236171);
+            
+        
+
+        marker_e225eae81eb3355e6ba1d3041665d76d.bindPopup(popup_4759e5c5be0711469c116dfe56beb6b3)
+        ;
+
+        
+    
+    
+            var marker_21aa500d0242dbc0ac18aba2164cc833 = L.marker(
+                [47.6201461, -100.540737],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_3f6b17c815c32ae7b380ea67b2cf6009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_21aa500d0242dbc0ac18aba2164cc833.setIcon(icon_3f6b17c815c32ae7b380ea67b2cf6009);
+        
+    
+        var popup_9194724f31ebd614a85ffbfdceac9680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e850518eaba59e90b43fdcab3a6fe3a4 = $(`<div id="html_e850518eaba59e90b43fdcab3a6fe3a4" style="width: 100.0%; height: 100.0%;">North Dakota:  treatment_centers_by_state: 85  Ratio:56.680851063829785</div>`)[0];
+                popup_9194724f31ebd614a85ffbfdceac9680.setContent(html_e850518eaba59e90b43fdcab3a6fe3a4);
+            
+        
+
+        marker_21aa500d0242dbc0ac18aba2164cc833.bindPopup(popup_9194724f31ebd614a85ffbfdceac9680)
+        ;
+
+        
+    
+    
+            var marker_8d6d625d2885997394a523d1d67db942 = L.marker(
+                [40.2253569, -82.6881395],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_ece0a3c245b79d29dfda61ab9f0de41e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d6d625d2885997394a523d1d67db942.setIcon(icon_ece0a3c245b79d29dfda61ab9f0de41e);
+        
+    
+        var popup_93430b6d5507df94024d189056c1e10a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72340ff8ffd4f28b3903fb48d32ab612 = $(`<div id="html_72340ff8ffd4f28b3903fb48d32ab612" style="width: 100.0%; height: 100.0%;">Ohio:  treatment_centers_by_state: 554  Ratio:89.29268292682927</div>`)[0];
+                popup_93430b6d5507df94024d189056c1e10a.setContent(html_72340ff8ffd4f28b3903fb48d32ab612);
+            
+        
+
+        marker_8d6d625d2885997394a523d1d67db942.bindPopup(popup_93430b6d5507df94024d189056c1e10a)
+        ;
+
+        
+    
+    
+            var marker_806cb957c302c3f63a8cba6eb14f0122 = L.marker(
+                [34.9550817, -97.2684063],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_aba2c1d39155ffbc4fd117dcc6e76e4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_806cb957c302c3f63a8cba6eb14f0122.setIcon(icon_aba2c1d39155ffbc4fd117dcc6e76e4b);
+        
+    
+        var popup_887f5265258d48e9c586715656e730df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5f22665f24426ece4b9bcc4604c6764 = $(`<div id="html_e5f22665f24426ece4b9bcc4604c6764" style="width: 100.0%; height: 100.0%;">Oklahoma:  treatment_centers_by_state: 208  Ratio:127.86324786324786</div>`)[0];
+                popup_887f5265258d48e9c586715656e730df.setContent(html_e5f22665f24426ece4b9bcc4604c6764);
+            
+        
+
+        marker_806cb957c302c3f63a8cba6eb14f0122.bindPopup(popup_887f5265258d48e9c586715656e730df)
+        ;
+
+        
+    
+    
+            var marker_8ea59323d483fd3ca8f1c65ac4c4b588 = L.marker(
+                [40.9699889, -77.7278831],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_67f2d48d4248c658589e6b10ee1795cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ea59323d483fd3ca8f1c65ac4c4b588.setIcon(icon_67f2d48d4248c658589e6b10ee1795cb);
+        
+    
+        var popup_df2092b08f3cfd2bfe9e99f2fe36c95e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35168fb9ec24135188e39c6067859d29 = $(`<div id="html_35168fb9ec24135188e39c6067859d29" style="width: 100.0%; height: 100.0%;">Pennsylvania:  treatment_centers_by_state: 600  Ratio:63.03340292275574</div>`)[0];
+                popup_df2092b08f3cfd2bfe9e99f2fe36c95e.setContent(html_35168fb9ec24135188e39c6067859d29);
+            
+        
+
+        marker_8ea59323d483fd3ca8f1c65ac4c4b588.bindPopup(popup_df2092b08f3cfd2bfe9e99f2fe36c95e)
+        ;
+
+        
+    
+    
+            var marker_7bb9719bf1ba56b15ab0cfbef97d89b7 = L.marker(
+                [18.2247706, -66.4858295],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_d8a7ceb2bc584350a9a2b390b7c6032d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7bb9719bf1ba56b15ab0cfbef97d89b7.setIcon(icon_d8a7ceb2bc584350a9a2b390b7c6032d);
+        
+    
+        var popup_649b349d62844def1af70373bd26c961 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56d1175de8f615802e60c98ad1f7ea35 = $(`<div id="html_56d1175de8f615802e60c98ad1f7ea35" style="width: 100.0%; height: 100.0%;">Puerto Rico:  treatment_centers_by_state: 97  Ratio:52.03225806451613</div>`)[0];
+                popup_649b349d62844def1af70373bd26c961.setContent(html_56d1175de8f615802e60c98ad1f7ea35);
+            
+        
+
+        marker_7bb9719bf1ba56b15ab0cfbef97d89b7.bindPopup(popup_649b349d62844def1af70373bd26c961)
+        ;
+
+        
+    
+    
+            var marker_42246566921876194a2758e0c1885d90 = L.marker(
+                [41.7962409, -71.5992372],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_50f0d634f7fe57ba2f59ce48e99df2bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42246566921876194a2758e0c1885d90.setIcon(icon_50f0d634f7fe57ba2f59ce48e99df2bf);
+        
+    
+        var popup_ac26d59aa7781dacec9cfdf9f919c9a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6978449bbfbabae101f73e0c8e5d2011 = $(`<div id="html_6978449bbfbabae101f73e0c8e5d2011" style="width: 100.0%; height: 100.0%;">Rhode Island:  treatment_centers_by_state: 59  Ratio:383.57575757575756</div>`)[0];
+                popup_ac26d59aa7781dacec9cfdf9f919c9a4.setContent(html_6978449bbfbabae101f73e0c8e5d2011);
+            
+        
+
+        marker_42246566921876194a2758e0c1885d90.bindPopup(popup_ac26d59aa7781dacec9cfdf9f919c9a4)
+        ;
+
+        
+    
+    
+            var marker_a38a6613706c47888a176963cfdd84ba = L.marker(
+                [33.6874388, -80.4363743],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_36824058ac3a5ae6268fe5375272a15f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a38a6613706c47888a176963cfdd84ba.setIcon(icon_36824058ac3a5ae6268fe5375272a15f);
+        
+    
+        var popup_17563000b971887ec190ace67c617c15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b6addbd93e2e44c815403778253c017 = $(`<div id="html_8b6addbd93e2e44c815403778253c017" style="width: 100.0%; height: 100.0%;">South Carolina:  treatment_centers_by_state: 121  Ratio:394.46153846153845</div>`)[0];
+                popup_17563000b971887ec190ace67c617c15.setContent(html_8b6addbd93e2e44c815403778253c017);
+            
+        
+
+        marker_a38a6613706c47888a176963cfdd84ba.bindPopup(popup_17563000b971887ec190ace67c617c15)
+        ;
+
+        
+    
+    
+            var marker_5ef5d2db8515b98ec24372934d1ce497 = L.marker(
+                [44.6471761, -100.348761],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_2d07278a6dc3ec637245963a4175645d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ef5d2db8515b98ec24372934d1ce497.setIcon(icon_2d07278a6dc3ec637245963a4175645d);
+        
+    
+        var popup_44b473bdaa14894b6ccedbe53862ac3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f0ad41882ec7c32c62faf1ec16821cf = $(`<div id="html_2f0ad41882ec7c32c62faf1ec16821cf" style="width: 100.0%; height: 100.0%;">South Dakota:  treatment_centers_by_state: 59  Ratio:320.9019607843137</div>`)[0];
+                popup_44b473bdaa14894b6ccedbe53862ac3a.setContent(html_2f0ad41882ec7c32c62faf1ec16821cf);
+            
+        
+
+        marker_5ef5d2db8515b98ec24372934d1ce497.bindPopup(popup_44b473bdaa14894b6ccedbe53862ac3a)
+        ;
+
+        
+    
+    
+            var marker_31ea07a8832d935ec07bce2c21480c33 = L.marker(
+                [35.7730076, -86.2820081],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_968a6e4b5b0192542b04ef4774af7bd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31ea07a8832d935ec07bce2c21480c33.setIcon(icon_968a6e4b5b0192542b04ef4774af7bd6);
+        
+    
+        var popup_eb8290a3359dd7cd2189e44110cd5815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2c41f31135eaa22eaa87f11350b1fb9 = $(`<div id="html_e2c41f31135eaa22eaa87f11350b1fb9" style="width: 100.0%; height: 100.0%;">Tennessee:  treatment_centers_by_state: 313  Ratio:109.08152173913044</div>`)[0];
+                popup_eb8290a3359dd7cd2189e44110cd5815.setContent(html_e2c41f31135eaa22eaa87f11350b1fb9);
+            
+        
+
+        marker_31ea07a8832d935ec07bce2c21480c33.bindPopup(popup_eb8290a3359dd7cd2189e44110cd5815)
+        ;
+
+        
+    
+    
+            var marker_e201560e06893ded396681c5f2ec7392 = L.marker(
+                [31.2638905, -98.5456116],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_1093777279440e82fcedc4a54cfc486c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e201560e06893ded396681c5f2ec7392.setIcon(icon_1093777279440e82fcedc4a54cfc486c);
+        
+    
+        var popup_af33e2d57bb933a34d7c86da870e6a69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6df78fbfbf4666a282023f3fd663c928 = $(`<div id="html_6df78fbfbf4666a282023f3fd663c928" style="width: 100.0%; height: 100.0%;">Texas:  treatment_centers_by_state: 512  Ratio:87.14645308924486</div>`)[0];
+                popup_af33e2d57bb933a34d7c86da870e6a69.setContent(html_6df78fbfbf4666a282023f3fd663c928);
+            
+        
+
+        marker_e201560e06893ded396681c5f2ec7392.bindPopup(popup_af33e2d57bb933a34d7c86da870e6a69)
+        ;
+
+        
+    
+    
+            var marker_e4b6c03290dd05ad82f7600d6a2a06f5 = L.marker(
+                [39.4225192, -111.714358],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_fb1cd0f8745e12e7a3767cefc6b6c5e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4b6c03290dd05ad82f7600d6a2a06f5.setIcon(icon_fb1cd0f8745e12e7a3767cefc6b6c5e1);
+        
+    
+        var popup_2cc4cda2f3dfa2f173eb0b4c5ce52596 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff705de1cc9fdc937fb6c10a7d358698 = $(`<div id="html_ff705de1cc9fdc937fb6c10a7d358698" style="width: 100.0%; height: 100.0%;">Utah:  treatment_centers_by_state: 310  Ratio:73.39189189189189</div>`)[0];
+                popup_2cc4cda2f3dfa2f173eb0b4c5ce52596.setContent(html_ff705de1cc9fdc937fb6c10a7d358698);
+            
+        
+
+        marker_e4b6c03290dd05ad82f7600d6a2a06f5.bindPopup(popup_2cc4cda2f3dfa2f173eb0b4c5ce52596)
+        ;
+
+        
+    
+    
+            var marker_02b06a5cd24eadfd8dd0f4fb8d59b6fa = L.marker(
+                [44.5990718, -72.5002608],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_a373975ef48a8c49f9cdf4c809c36f24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_02b06a5cd24eadfd8dd0f4fb8d59b6fa.setIcon(icon_a373975ef48a8c49f9cdf4c809c36f24);
+        
+    
+        var popup_4411fbb905b6d9072c2facadb7569332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e6c4cdf9d5ac44431676198cb2de5ef = $(`<div id="html_3e6c4cdf9d5ac44431676198cb2de5ef" style="width: 100.0%; height: 100.0%;">Vermont:  treatment_centers_by_state: 48  Ratio:925.7</div>`)[0];
+                popup_4411fbb905b6d9072c2facadb7569332.setContent(html_3e6c4cdf9d5ac44431676198cb2de5ef);
+            
+        
+
+        marker_02b06a5cd24eadfd8dd0f4fb8d59b6fa.bindPopup(popup_4411fbb905b6d9072c2facadb7569332)
+        ;
+
+        
+    
+    
+            var marker_db4b7f6b46b0d9d577296fd9495ca357 = L.marker(
+                [37.1232245, -78.4927721],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_bd37d41fbbd1f66e4e9a4c493fbf2572 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_db4b7f6b46b0d9d577296fd9495ca357.setIcon(icon_bd37d41fbbd1f66e4e9a4c493fbf2572);
+        
+    
+        var popup_e42b91946ed1bbcd6bfb8572208998d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43901d08b3b9b7c41341ed74fbe4c90b = $(`<div id="html_43901d08b3b9b7c41341ed74fbe4c90b" style="width: 100.0%; height: 100.0%;">Virginia:  treatment_centers_by_state: 254  Ratio:250.80582524271844</div>`)[0];
+                popup_e42b91946ed1bbcd6bfb8572208998d6.setContent(html_43901d08b3b9b7c41341ed74fbe4c90b);
+            
+        
+
+        marker_db4b7f6b46b0d9d577296fd9495ca357.bindPopup(popup_e42b91946ed1bbcd6bfb8572208998d6)
+        ;
+
+        
+    
+    
+            var marker_abaac441fe0ef9a45d98349ee138e466 = L.marker(
+                [38.4758406, -80.8408415],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_6f308357a28007f68c9f3d5b1932a85f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abaac441fe0ef9a45d98349ee138e466.setIcon(icon_6f308357a28007f68c9f3d5b1932a85f);
+        
+    
+        var popup_9903cfd5a5715182e1f75bbe345ec535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f8db4e3447b8f09faeaf76bca5c073e = $(`<div id="html_0f8db4e3447b8f09faeaf76bca5c073e" style="width: 100.0%; height: 100.0%;">West Virginia:  treatment_centers_by_state: 116  Ratio:41.18867924528302</div>`)[0];
+                popup_9903cfd5a5715182e1f75bbe345ec535.setContent(html_0f8db4e3447b8f09faeaf76bca5c073e);
+            
+        
+
+        marker_abaac441fe0ef9a45d98349ee138e466.bindPopup(popup_9903cfd5a5715182e1f75bbe345ec535)
+        ;
+
+        
+    
+    
+            var marker_c8f3f76db5fe5816e639d3e61b3ee8c8 = L.marker(
+                [44.4308975, -89.6884637],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_daa3835f1ff12ae679324cff331840d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8f3f76db5fe5816e639d3e61b3ee8c8.setIcon(icon_daa3835f1ff12ae679324cff331840d6);
+        
+    
+        var popup_8e1f552165e5590bc8c6ccc52a91f1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1ac8a77fa2786f7b1add8dbe34d842b = $(`<div id="html_d1ac8a77fa2786f7b1add8dbe34d842b" style="width: 100.0%; height: 100.0%;">Wisconsin:  treatment_centers_by_state: 276  Ratio:197.6031746031746</div>`)[0];
+                popup_8e1f552165e5590bc8c6ccc52a91f1f3.setContent(html_d1ac8a77fa2786f7b1add8dbe34d842b);
+            
+        
+
+        marker_c8f3f76db5fe5816e639d3e61b3ee8c8.bindPopup(popup_8e1f552165e5590bc8c6ccc52a91f1f3)
+        ;
+
+        
+    
+    
+            var marker_9e78f6043e8ee50cc97212ca4f5b82a1 = L.marker(
+                [43.1700264, -107.568534],
+                {}
+            ).addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+    
+            var icon_f97130c5280923c161f20901b2f27b0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e78f6043e8ee50cc97212ca4f5b82a1.setIcon(icon_f97130c5280923c161f20901b2f27b0d);
+        
+    
+        var popup_7606ffbd8f5d9e43c0cab2c3103bf761 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79e00d035c45911422e801384a9dd72f = $(`<div id="html_79e00d035c45911422e801384a9dd72f" style="width: 100.0%; height: 100.0%;">Wyoming:  treatment_centers_by_state: 57  Ratio:132.5</div>`)[0];
+                popup_7606ffbd8f5d9e43c0cab2c3103bf761.setContent(html_79e00d035c45911422e801384a9dd72f);
+            
+        
+
+        marker_9e78f6043e8ee50cc97212ca4f5b82a1.bindPopup(popup_7606ffbd8f5d9e43c0cab2c3103bf761)
+        ;
+
+        
+    
+    
+            tile_layer_0f007dc5aab40587040ce11d4523f4f4.addTo(map_ef2e3a2cf4816d439b72a729b39ca55d);
+        
+</script>
+</html>
