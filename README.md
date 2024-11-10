@@ -58,7 +58,7 @@ Outpatient treatment made up the highest percentage over overall treatment by al
 )
 
 ## Conclusion
-.1  There are seven state in the US that stand out as potential deserts with Arizona and Colorado standing out due to the low arability of services other then outpatient in Arizona and long wait times in Colorado.   We recommend a deeper study in these states to identify the demographics of those getting treatment along with the cost across ownership of the facilities.  We would also recommend an effort to gain additional federal funding to increase the overall capacity of available beds in all 7 states identified as potential deserts. 
+There are seven state in the US that stand out as potential deserts with Arizona and Colorado standing out due to the low arability of services other then outpatient in Arizona and long wait times in Colorado.   We recommend a deeper study in these states to identify the demographics of those getting treatment along with the cost across ownership of the facilities.  We would also recommend an effort to gain additional federal funding to increase the overall capacity of available beds in all 7 states identified as potential deserts. 
 
 
 
