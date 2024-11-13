@@ -70,7 +70,7 @@ Outpatient treatment made up the highest percentage of overall treatment by all 
 )
 
 ## Conclusion
-There are seven states in the US that stand out as potential deserts with Arizona and Colorado standing out due to the low availability of services other than outpatient in Arizona and long wait times in Colorado.   We recommend a deeper study in these states to identify the demographics of those getting treatment along with the cost across ownership of the facilities.  We would also recommend an effort to gain additional federal funding to increase the overall capacity of available beds in all 6 states identified as potential deserts. 
+There are six states in the US that stand out as potential deserts with Arizona and Colorado standing out due to the low availability of services other than outpatient in Arizona and long wait times in Colorado.   We recommend a deeper study in these states to identify the demographics of those getting treatment along with the cost across ownership of the facilities.  We would also recommend an effort to gain additional federal funding to increase the overall capacity of available beds in all 6 states identified as potential deserts. 
 
 ## Citation
 Substance Abuse and Mental Health ServicesAdministration, Treatment Episode Data Set(TEDS): 2019. Rockville, MD: Substance Abuse and Mental Health Services Administration, 2021.
