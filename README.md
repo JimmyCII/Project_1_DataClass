@@ -29,13 +29,13 @@ This study examines substance abuse treatment center admissions in 2019, explori
 
  ## Observations
 
-1. We found that seven US states have a lower than average access to treatment.
+1. We found that six US states have a lower than average access to treatment.
     1.  To understand the capacity available in each state. We created a capacity ratio by taking the total cases and total beds available we created a capacity ratio.  All states that fell one standard deviation above the mean threshold of 480 were  categorized as potential deserts. Those states are Arizona, Colorado, Delaware, Maryland, New Jersey and Vermont. 
 
     1. Map of the total bed capacity ratio by state. Red indicated the state was one standard deviation above the mean. 
 ![Tux, the Linux mascot](Image/Ratio_of_Total_Capacity_by_state.png
 )
-    1. We also plotted this data to understand if there was a correlation between the treatmetn centers capacity and total cases. It did not indicate any correlation but it was a good visual of cases to bed capacity in each states.   
+    1. Overall, the regression model suggests a moderate positive relationship between treatment center capacity and total cases, but also indicates that the model does not fully capture all the factors affecting total cases. You may want to explore additional variables or improve the model to increase the explanatory power (R-squared value) further.   
 ![Tux, the Linux mascot](Image/output_scatter_ration_bed_bystate.png
 )
 
@@ -70,7 +70,7 @@ Outpatient treatment made up the highest percentage of overall treatment by all 
 )
 
 ## Conclusion
-There are seven states in the US that stand out as potential deserts with Arizona and Colorado standing out due to the low availability of services other than outpatient in Arizona and long wait times in Colorado.   We recommend a deeper study in these states to identify the demographics of those getting treatment along with the cost across ownership of the facilities.  We would also recommend an effort to gain additional federal funding to increase the overall capacity of available beds in all 7 states identified as potential deserts. 
+There are seven states in the US that stand out as potential deserts with Arizona and Colorado standing out due to the low availability of services other than outpatient in Arizona and long wait times in Colorado.   We recommend a deeper study in these states to identify the demographics of those getting treatment along with the cost across ownership of the facilities.  We would also recommend an effort to gain additional federal funding to increase the overall capacity of available beds in all 6 states identified as potential deserts. 
 
 ## Citation
 Substance Abuse and Mental Health ServicesAdministration, Treatment Episode Data Set(TEDS): 2019. Rockville, MD: Substance Abuse and Mental Health Services Administration, 2021.
